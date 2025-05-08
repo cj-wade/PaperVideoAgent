@@ -1,0 +1,10 @@
+arxiv==1.4.7
+Pillow==10.0.0
+numpy==1.24.3
+torch==2.0.1
+torchaudio==2.0.2
+diffusers==0.19.3
+transformers==4.30.2
+soundfile==0.12.1
+moviepy==1.0.3
+ollama==0.1.5 
