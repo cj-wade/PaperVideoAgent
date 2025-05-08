@@ -1,0 +1,258 @@
+[
+  {
+    "title": "EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning",
+    "authors": [
+      "Zhenghao Xing",
+      "Xiaowei Hu",
+      "Chi-Wing Fu",
+      "Wenhai Wang",
+      "Jifeng Dai",
+      "Pheng-Ann Heng"
+    ],
+    "affiliations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "summary": "Multimodal large language models (MLLMs) have advanced perception across\ntext, vision, and audio, yet they often struggle with structured cross-modal\nreasoning, particularly when integrating audio and visual signals. We introduce\nEchoInk-R1, a reinforcement learning framework that enhances such reasoning in\nMLLMs. Built upon the Qwen2.5-Omni-7B foundation and optimized with Group\nRelative Policy Optimization (GRPO), EchoInk-R1 tackles multiple-choice\nquestion answering over synchronized audio-image pairs. To enable this, we\ncurate AVQA-R1-6K, a dataset pairing such audio-image inputs with\nmultiple-choice questions derived from OmniInstruct-v1. EchoInk-R1-7B achieves\n85.77% accuracy on the validation set, outperforming the base model, which\nscores 80.53%, using only 562 reinforcement learning steps. Beyond accuracy,\nEchoInk-R1 demonstrates reflective reasoning by revisiting initial\ninterpretations and refining responses when facing ambiguous multimodal inputs.\nThese results suggest that lightweight reinforcement learning fine-tuning\nenhances cross-modal reasoning in MLLMs. EchoInk-R1 is the first framework to\nunify audio, visual, and textual modalities for general open-world reasoning\nvia reinforcement learning. Code and data are publicly released to facilitate\nfurther research.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04623v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04623v1",
+    "primary_category": "eess.AS",
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.CV",
+      "cs.MM",
+      "cs.SD"
+    ]
+  },
+  {
+    "title": "Score Distillation Sampling for Audio: Source Separation, Synthesis, and Beyond",
+    "authors": [
+      "Jessie Richter-Powell",
+      "Antonio Torralba",
+      "Jonathan Lorraine"
+    ],
+    "affiliations": [
+      "",
+      "",
+      ""
+    ],
+    "summary": "We introduce Audio-SDS, a generalization of Score Distillation Sampling (SDS)\nto text-conditioned audio diffusion models. While SDS was initially designed\nfor text-to-3D generation using image diffusion, its core idea of distilling a\npowerful generative prior into a separate parametric representation extends to\nthe audio domain. Leveraging a single pretrained model, Audio-SDS enables a\nbroad range of tasks without requiring specialized datasets. In particular, we\ndemonstrate how Audio-SDS can guide physically informed impact sound\nsimulations, calibrate FM-synthesis parameters, and perform prompt-specified\nsource separation. Our findings illustrate the versatility of\ndistillation-based methods across modalities and establish a robust foundation\nfor future work using generative priors in audio tasks.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04621v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04621v1",
+    "primary_category": "cs.SD",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "cs.LG",
+      "cs.MM",
+      "eess.AS",
+      "68T07",
+      "I.2.6; H.5.5; H.5.1"
+    ]
+  },
+  {
+    "title": "WATCH: Weighted Adaptive Testing for Changepoint Hypotheses via Weighted-Conformal Martingales",
+    "authors": [
+      "Drew Prinster",
+      "Xing Han",
+      "Anqi Liu",
+      "Suchi Saria"
+    ],
+    "affiliations": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "summary": "Responsibly deploying artificial intelligence (AI) / machine learning (ML)\nsystems in high-stakes settings arguably requires not only proof of system\nreliability, but moreover continual, post-deployment monitoring to quickly\ndetect and address any unsafe behavior. Statistical methods for nonparametric\nchange-point detection -- especially the tools of conformal test martingales\n(CTMs) and anytime-valid inference -- offer promising approaches to this\nmonitoring task. However, existing methods are restricted to monitoring limited\nhypothesis classes or ``alarm criteria,'' such as data shifts that violate\ncertain exchangeability assumptions, or do not allow for online adaptation in\nresponse to shifts. In this paper, we expand the scope of these monitoring\nmethods by proposing a weighted generalization of conformal test martingales\n(WCTMs), which lay a theoretical foundation for online monitoring for any\nunexpected changepoints in the data distribution while controlling\nfalse-alarms. For practical applications, we propose specific WCTM algorithms\nthat accommodate online adaptation to mild covariate shifts (in the marginal\ninput distribution) while raising alarms in response to more severe shifts,\nsuch as concept shifts (in the conditional label distribution) or extreme\n(out-of-support) covariate shifts that cannot be easily adapted to. On\nreal-world datasets, we demonstrate improved performance relative to\nstate-of-the-art baselines.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04608v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04608v1",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "title": "AI Governance to Avoid Extinction: The Strategic Landscape and Actionable Research Questions",
+    "authors": [
+      "Peter Barnett",
+      "Aaron Scher"
+    ],
+    "affiliations": [
+      "",
+      ""
+    ],
+    "summary": "Humanity appears to be on course to soon develop AI systems that\nsubstantially outperform human experts in all cognitive domains and activities.\nWe believe the default trajectory has a high likelihood of catastrophe,\nincluding human extinction. Risks come from failure to control powerful AI\nsystems, misuse of AI by malicious rogue actors, war between great powers, and\nauthoritarian lock-in. This research agenda has two aims: to describe the\nstrategic landscape of AI development and to catalog important governance\nresearch questions. These questions, if answered, would provide important\ninsight on how to successfully reduce catastrophic risks.\n  We describe four high-level scenarios for the geopolitical response to\nadvanced AI development, cataloging the research questions most relevant to\neach. Our favored scenario involves building the technical, legal, and\ninstitutional infrastructure required to internationally restrict dangerous AI\ndevelopment and deployment (which we refer to as an Off Switch), which leads\ninto an internationally coordinated Halt on frontier AI activities at some\npoint in the future. The second scenario we describe is a US National Project\nfor AI, in which the US Government races to develop advanced AI systems and\nestablish unilateral control over global AI development. We also describe two\nadditional scenarios: a Light-Touch world similar to that of today and a Threat\nof Sabotage situation where countries use sabotage and deterrence to slow AI\ndevelopment.\n  In our view, apart from the Off Switch and Halt scenario, all of these\ntrajectories appear to carry an unacceptable risk of catastrophic harm. Urgent\naction is needed from the US National Security community and AI governance\necosystem to answer key research questions, build the capability to halt\ndangerous AI activities, and prepare for international AI agreements.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04592v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04592v1",
+    "primary_category": "cs.CY",
+    "categories": [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Fight Fire with Fire: Defending Against Malicious RL Fine-Tuning via Reward Neutralization",
+    "authors": [
+      "Wenjun Cao"
+    ],
+    "affiliations": [
+      ""
+    ],
+    "summary": "Reinforcement learning (RL) fine-tuning transforms large language models\nwhile creating a vulnerability we experimentally verify: Our experiment shows\nthat malicious RL fine-tuning dismantles safety guardrails with remarkable\nefficiency, requiring only 50 steps and minimal adversarial prompts, with\nharmful escalating from 0-2 to 7-9. This attack vector particularly threatens\nopen-source models with parameter-level access. Existing defenses targeting\nsupervised fine-tuning prove ineffective against RL's dynamic feedback\nmechanisms. We introduce Reward Neutralization, the first defense framework\nspecifically designed against RL fine-tuning attacks, establishing concise\nrejection patterns that render malicious reward signals ineffective. Our\napproach trains models to produce minimal-information rejections that attackers\ncannot exploit, systematically neutralizing attempts to optimize toward harmful\noutputs. Experiments validate that our approach maintains low harmful scores\n(no greater than 2) after 200 attack steps, while standard models rapidly\ndeteriorate. This work provides the first constructive proof that robust\ndefense against increasingly accessible RL attacks is achievable, addressing a\ncritical security gap for open-weight models.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04578v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04578v1",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Purity Law for Generalizable Neural TSP Solvers",
+    "authors": [
+      "Wenzhao Liu",
+      "Haoran Li",
+      "Congying Han",
+      "Zicheng Zhang",
+      "Anqi Li",
+      "Tiande Guo"
+    ],
+    "affiliations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "summary": "Achieving generalization in neural approaches across different scales and\ndistributions remains a significant challenge for the Traveling Salesman\nProblem~(TSP). A key obstacle is that neural networks often fail to learn\nrobust principles for identifying universal patterns and deriving optimal\nsolutions from diverse instances. In this paper, we first uncover Purity Law\n(PuLa), a fundamental structural principle for optimal TSP solutions, defining\nthat edge prevalence grows exponentially with the sparsity of surrounding\nvertices. Statistically validated across diverse instances, PuLa reveals a\nconsistent bias toward local sparsity in global optima. Building on this\ninsight, we propose Purity Policy Optimization~(PUPO), a novel training\nparadigm that explicitly aligns characteristics of neural solutions with PuLa\nduring the solution construction process to enhance generalization. Extensive\nexperiments demonstrate that PUPO can be seamlessly integrated with popular\nneural solvers, significantly enhancing their generalization performance\nwithout incurring additional computational overhead during inference.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04558v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04558v1",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Risk-sensitive Reinforcement Learning Based on Convex Scoring Functions",
+    "authors": [
+      "Shanyu Han",
+      "Yang Liu",
+      "Xiang Yu"
+    ],
+    "affiliations": [
+      "",
+      "",
+      ""
+    ],
+    "summary": "We propose a reinforcement learning (RL) framework under a broad class of\nrisk objectives, characterized by convex scoring functions. This class covers\nmany common risk measures, such as variance, Expected Shortfall, entropic\nValue-at-Risk, and mean-risk utility. To resolve the time-inconsistency issue,\nwe consider an augmented state space and an auxiliary variable and recast the\nproblem as a two-state optimization problem. We propose a customized\nActor-Critic algorithm and establish some theoretical approximation guarantees.\nA key theoretical contribution is that our results do not require the Markov\ndecision process to be continuous. Additionally, we propose an auxiliary\nvariable sampling method inspired by the alternating minimization algorithm,\nwhich is convergent under certain conditions. We validate our approach in\nsimulation experiments with a financial application in statistical arbitrage\ntrading, demonstrating the effectiveness of the algorithm.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04553v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04553v1",
+    "primary_category": "q-fin.MF",
+    "categories": [
+      "q-fin.MF",
+      "cs.AI",
+      "q-fin.RM"
+    ]
+  },
+  {
+    "title": "Qualitative Analysis of $ω$-Regular Objectives on Robust MDPs",
+    "authors": [
+      "Ali Asadi",
+      "Krishnendu Chatterjee",
+      "Ehsan Kafshdar Goharshady",
+      "Mehrdad Karrabi",
+      "Ali Shafiee"
+    ],
+    "affiliations": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "summary": "Robust Markov Decision Processes (RMDPs) generalize classical MDPs that\nconsider uncertainties in transition probabilities by defining a set of\npossible transition functions. An objective is a set of runs (or infinite\ntrajectories) of the RMDP, and the value for an objective is the maximal\nprobability that the agent can guarantee against the adversarial environment.\nWe consider (a) reachability objectives, where given a target set of states,\nthe goal is to eventually arrive at one of them; and (b) parity objectives,\nwhich are a canonical representation for $\\omega$-regular objectives. The\nqualitative analysis problem asks whether the objective can be ensured with\nprobability 1.\n  In this work, we study the qualitative problem for reachability and parity\nobjectives on RMDPs without making any assumption over the structures of the\nRMDPs, e.g., unichain or aperiodic. Our contributions are twofold. We first\npresent efficient algorithms with oracle access to uncertainty sets that solve\nqualitative problems of reachability and parity objectives. We then report\nexperimental results demonstrating the effectiveness of our oracle-based\napproach on classical RMDP examples from the literature scaling up to thousands\nof states.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04539v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04539v1",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Overcoming Data Scarcity in Generative Language Modelling for Low-Resource Languages: A Systematic Review",
+    "authors": [
+      "Josh McGiff",
+      "Nikola S. Nikolov"
+    ],
+    "affiliations": [
+      "",
+      ""
+    ],
+    "summary": "Generative language modelling has surged in popularity with the emergence of\nservices such as ChatGPT and Google Gemini. While these models have\ndemonstrated transformative potential in productivity and communication, they\noverwhelmingly cater to high-resource languages like English. This has\namplified concerns over linguistic inequality in natural language processing\n(NLP). This paper presents the first systematic review focused specifically on\nstrategies to address data scarcity in generative language modelling for\nlow-resource languages (LRL). Drawing from 54 studies, we identify, categorise\nand evaluate technical approaches, including monolingual data augmentation,\nback-translation, multilingual training, and prompt engineering, across\ngenerative tasks. We also analyse trends in architecture choices, language\nfamily representation, and evaluation methods. Our findings highlight a strong\nreliance on transformer-based models, a concentration on a small subset of\nLRLs, and a lack of consistent evaluation across studies. We conclude with\nrecommendations for extending these methods to a wider range of LRLs and\noutline open challenges in building equitable generative language systems.\nUltimately, this review aims to support researchers and developers in building\ninclusive AI tools for underrepresented languages, a necessary step toward\nempowering LRL speakers and the preservation of linguistic diversity in a world\nincreasingly shaped by large-scale language technologies.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04531v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04531v1",
+    "primary_category": "cs.CL",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Beyond Theorem Proving: Formulation, Framework and Benchmark for Formal Problem-Solving",
+    "authors": [
+      "Qi Liu",
+      "Xinhao Zheng",
+      "Renqiu Xia",
+      "Xingzhi Qi",
+      "Qinxiang Cao",
+      "Junchi Yan"
+    ],
+    "affiliations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "summary": "As a seemingly self-explanatory task, problem-solving has been a significant\ncomponent of science and engineering. However, a general yet concrete\nformulation of problem-solving itself is missing. With the recent development\nof AI-based problem-solving agents, the demand for process-level verifiability\nis rapidly increasing yet underexplored. To fill these gaps, we present a\nprincipled formulation of problem-solving as a deterministic Markov decision\nprocess; a novel framework, FPS (Formal Problem-Solving), which utilizes\nexisting FTP (formal theorem proving) environments to perform process-verified\nproblem-solving; and D-FPS (Deductive FPS), decoupling solving and answer\nverification for better human-alignment. The expressiveness, soundness and\ncompleteness of the frameworks are proven. We construct three benchmarks on\nproblem-solving: FormalMath500, a formalization of a subset of the MATH500\nbenchmark; MiniF2F-Solving and PutnamBench-Solving, adaptations of FTP\nbenchmarks MiniF2F and PutnamBench. For faithful, interpretable, and\nhuman-aligned evaluation, we propose RPE (Restricted Propositional\nEquivalence), a symbolic approach to determine the correctness of answers by\nformal verification. We evaluate four prevalent FTP models and two prompting\nmethods as baselines, solving at most 23.77% of FormalMath500, 27.47% of\nMiniF2F-Solving, and 0.31% of PutnamBench-Solving.",
+    "published": "2025-05-07",
+    "updated": "2025-05-07",
+    "arxiv_id": "2505.04528v1",
+    "pdf_url": "http://arxiv.org/pdf/2505.04528v1",
+    "primary_category": "cs.AI",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LO"
+    ]
+  }
+]
